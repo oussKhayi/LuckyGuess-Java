@@ -16,7 +16,7 @@ public class LuckyGuess {
         userNbr = scanner.nextInt();
         
         if(userNbr == randomNumber){
-            System.out.println("Oooh, You nailed it at the first time !,Confrats ✨🎉🎊 !\n the number was "+ userNbr);
+            System.out.println("Oooh, You nailed it at the first time !,Congrats ✨🎊 !\n the number was "+ userNbr);
             }else{
                 if(userNbr >randomNumber){
                     System.out.println("The number you type is supperior than the Anounymous number!");
